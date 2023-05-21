@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+header p {
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+li {
+    list-style: none;
+    font-size: 24px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    display: flex;
+    padding: 62px 48px;
+}
+
+.gallery {
+    align-items: center;
+}
+
+.gallery ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery ul li {
+    display: flex;
+    padding: 22px 12px;
+    border: 6px solid black;
+    align-items: center;
+}
