@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    width: 213px;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 213px;
+}
+
+.card section {
+    padding: 10px 16px;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+}
+
+.card footer {
+    border-top: 1px solid black;
+    padding: 22px 16px;
+    margin-top: 22px;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+/* Mansory */
+.cards-layout.mansory {
+    width: 45%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+/* Flex */
+.cards-layout.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: left;
+}
