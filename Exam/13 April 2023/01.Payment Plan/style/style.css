@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+}
+
+body img {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#payment {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#payment .payment__section {
+    width: 30%;
+    border: 2px solid black;
+    padding: 1.5rem;
+    background-color: white;
+}
+
+#payment .payment__basic, 
+#payment .payment__premiue {
+    height: 500px;
+}
+
+#payment .payment__standart {
+    height: 550px;
+}
+
+#payment .payment__title {
+    color: lightgray;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+#payment .payment__plan {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+}
+
+#payment .payment__price {
+    font-size: 3.75rem;
+}
+
+#payment .payment__section p {
+    font-size: 0.75rem;
+    color: gray;
+    padding-bottom: 1rem;
+}
+
+#payment .payment__section ul {
+    margin: 0.5rem 0 2rem 0;
+}
+
+#payment .payment__premium ul {
+    margin-bottom: 1rem;
+}
+
+#payment .payment__section li {
+    padding-bottom: 0.5rem;
+}
