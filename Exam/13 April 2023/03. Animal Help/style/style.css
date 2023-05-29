@@ -1,0 +1,160 @@
+/* #85dcff -- blue */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.btn {
+    padding: 0.5rem 4.5rem;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.btn__primary {
+    background-color: black;
+    color: white;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#header .header__title {
+    padding-left: 2.5rem;
+    font-size: 1.5rem;
+}
+
+#header .header__nav {
+    display: flex;
+    justify-content: center;
+}
+
+#header .header__nav ul {
+    display: flex;
+    padding-right: 2rem;
+    justify-content: space-around;
+}
+
+#header .header__nav .item {
+    padding-right: 1rem;
+    list-style: none;
+}
+
+#header .header__nav .item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
+#main .hero {
+    background-color: #85dcff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#main .hero .hero__info {
+    width: 40%;
+}
+
+#main .hero__info h2 {
+    font-size: 24px;
+    padding-bottom: 1.5rem;
+}
+
+#main .hero__info p {
+    padding-bottom: 1.5rem;
+}
+
+#main .hero__info div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#main .need-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#main .need-us div {
+    width: 35%;
+}
+
+#main .need-us h2 {
+    font-size: 18px;
+    padding-bottom: 1.5rem;
+}
+
+#main .need-us p {
+    font-size: 19px;
+    padding-bottom: 3rem;
+}
+
+#main .need-us .need-us__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main .need-us .need-us__home,
+#main .need-us .need-us__flight,
+#main .need-us .need-us__volun {
+    width: 30%;
+}
+
+#main .need-us__container i {
+    color: #85dcff;
+    margin-bottom: 2rem;
+}
+
+#main .need-us__container h3 {
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+#main .need-us__container p {
+    font-size: 20px;
+}
+
+
+#main .work {
+    background-color: #85dcff;
+    padding: 4rem 6rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main .work h2 {
+    margin: 0 auto;
+}
+
+#main .work div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+#main .work ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    gap: 34px;
+}
+
+#main .work ul li {
+    list-style: none;
+}
