@@ -132,7 +132,7 @@ body {
 #main .work {
     background-color: #85dcff;
     padding: 4rem 6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -145,7 +145,7 @@ body {
 #main .work div {
     display: flex;
     justify-content: center;
-    margin-bottom: 4rem;
+    margin: 4rem 0 3rem 0;
 }
 
 #main .work ul {
@@ -157,4 +157,127 @@ body {
 
 #main .work ul li {
     list-style: none;
+}
+
+
+#main .animal {
+    padding: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+#main .animal__animals {
+    width: 100%;
+    text-align: center;
+}
+
+#main .animal__animals .animals__title {
+    padding-bottom: 1.5rem;
+}
+
+#main .animal__animals .animals__title h2 {
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#main .animal__animals .animals__title p {
+    font-size: 16px;
+    color: grey;
+}
+
+#main .animal__animals .animals__img {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+
+#main .animal__animals .animals__img img {
+    width: 280px;
+}
+
+#main .animal__work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main .animal__work .title {
+    font-size: 20px;
+    padding-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#main .animal__work article {
+    border: lightgray solid 1px;
+    border-radius: 6px;
+    width: 84%;
+    margin-bottom: 1.5rem;
+}
+
+#main .animal__work article h3 {
+    padding: 0.75rem 1rem;
+    background-color: #85dcff;
+    font-size: 18px;
+}
+
+#main .animal__work article p {
+    padding: 2rem 1.5rem;
+}
+
+#main .email__section {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#main .email__section img {
+    width: 750px;
+}
+
+#main .email__section .email__info {
+    width: 36%;
+}
+
+#main .email__section h2 {
+    font-size: 28px;
+    padding-bottom: 2rem;
+}
+
+#main .email__section p {
+    font-size: 14px;
+    padding-bottom: 2rem;
+}
+
+#main .email__section input {
+    display: block;
+    width: 50%;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    margin-bottom: 2rem;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer__socials {
+    margin-left: 60px;
+    margin-bottom: 1.5rem;
+}
+
+#footer .footer__socials i {
+    margin-right: 16px;
+}
+
+#footer p {
+    margin-right: 60px;
+    font-size: 16px;
 }
