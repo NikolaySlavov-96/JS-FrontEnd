@@ -1,0 +1,180 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {}
+
+.btn {
+    background-color: #d01919;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+}
+
+#header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+#header img {
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+}
+
+#header .header__contact {
+    height: 50px;
+    background-color: #d01919;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#header .contact__number {
+    margin-left: 3rem;
+}
+
+#header li {
+    display: inline-block;
+}
+
+#header p,
+#header a,
+h1 {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header .header__social {
+    margin-right: 3rem;
+}
+
+#header .header__social li {
+    margin-right: 8px;
+}
+
+#header .header__nav {
+    width: 100%;
+}
+
+#header .header__nav ul {
+    display: flex;
+    margin-right: 3rem;
+    justify-content: flex-end;
+    gap: 4rem;
+}
+
+#header .header__intro {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#header .intro_content h1 {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+
+#header .intro_content p {
+    font-size: 1.25rem;
+    width: 73%;
+    margin-bottom: 2rem;
+}
+
+/* Main */
+
+
+/* Welcome */
+
+#main .welcome {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+#main .welcome__title {
+    width: 100%;
+    text-align: center;
+}
+
+#main .welcome__title h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#main .title__line {
+    border: 2px solid #d01919;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#main .card {
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+#main .card img {
+    width: 70px;
+    margin-bottom: 1.25rem;
+}
+
+#main .card__content {
+    width: 100%;
+}
+
+#main .card__content h3 {
+    color: #d2324e;
+    padding-bottom: 1rem;
+}
+
+/* Coach */
+
+#main .coaches {
+    background-color: #efefef;
+    padding: 2rem 0 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#main .coaches .welcome__title {
+    margin-bottom: 2rem;
+}
+
+#main .coaches .card img {
+    width: 300px;
+}
+
+#main .coaches .card__content h3 {
+    color: black;
+}
+
+#main .coaches .card__content h2 {
+    color: #d13232;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+#main .coaches .card__content p {
+    color: #afabb4;
+}
+
+footer {
+    background-color: #d01919;
+    padding: 10px;
+    text-align: center;
+}

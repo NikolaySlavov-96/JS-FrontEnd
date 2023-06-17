@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+
+#calculator {
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #8a8a8a
+}
+
+
+#calculator .calculator__img {
+    width: 50%;
+}
+
+/* TO DO Darkness picture */ 
+
+
+#calculator .calculator__body {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f7f8;
+    padding: 20px 0;
+}
+/* 
+color border #c1c1c1 
+calculator text background color 
+stand units BG -? #86d862
+*/
+
+#calculator .calculator_unit {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#calculator .calculator_unit .btn {
+    width: 170px;
+    padding: 6px 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#calculator .calculator_unit .special {
+    background-color: #83d05c;
+}
+
+#calculator .calculator__title-gender {
+    margin-bottom: 12px;
+}
+
+#calculator .calculator__gender {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#calculator .calculator__gender input {
+    width: 40%;
+}
+
+#calculator .calculator__gender select {
+    width: 40%;
+    background-color: white;
+}
+
+#calculator .calculator__form {
+    width: 80%;
+}
+
+#calculator .calculator__title-weight {
+    margin-bottom: 12px;
+}
+
+#calculator .calculator__weight {
+    margin-bottom: 15px;
+}
+
+#calculator .calculator__weight input {
+    width: 90%;
+}
+
+#calculator .calculator__title-heigh {
+    margin-bottom: 12px;
+}
+
+#calculator .calculator__high {
+    margin-bottom: 46px;
+    display: flex;
+    justify-content: space-around;
+    gap: 6px;
+}
+
+#calculator .calculator__high input {
+    width: 46%;
+}
+
+#calculator .calculator__form .calculator__subimt input {
+    margin-bottom: 15px;
+    padding: 2px 12px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #05a2d3;
+    color: white;
+}
